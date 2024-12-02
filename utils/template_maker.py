@@ -1,13 +1,16 @@
 import os
 
-year = input("AoC Yea: ")
+year = input("AoC Year: ")
 
-dirs = [year,] + [os.path.join(year, "day_"+str(day+1).zfill(2)) for day in range(25)]
+dirs = ([os.path.join("..", year), ] +
+        [os.path.join("..", year, "python"), ] +
+        [os.path.join("..", year, "python", "day_"+str(day+1).zfill(2)) for day in range(25)])
+
 for dir in dirs:
     if not os.path.exists(dir):
         os.mkdir(dir)
 
-for day in dirs[1:]:
+for day in dirs[2:]:
     with open(os.path.join(day, "data.txt"), "w+") as f:
         pass
 
