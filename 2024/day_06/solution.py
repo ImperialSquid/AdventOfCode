@@ -17,12 +17,7 @@ with open("data.txt") as f:
 
 cur_tile = map_area[guard_pos]
 
-index = 0
 while True:
-    index += 1
-
-    print(guard_pos)
-    print(cur_tile)
     next_pos = guard_pos + guard_dir
 
     next_tile = map_area[next_pos]
@@ -34,5 +29,6 @@ while True:
     elif next_tile == "E":
         break
 
+p1_total = sum([v for v in visited.values()])
 
-print(sum([v for v in visited.values()]))
+print(f"Part 1 Solution: { p1_total }")
