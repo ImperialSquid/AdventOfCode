@@ -1,3 +1,7 @@
+import time
+
+start = time.time()
+
 equations = []
 
 with open("data.txt") as f:
@@ -10,6 +14,10 @@ def evaluate_equations(target, stack, ops, layer = 0):
     if len(stack) == 1:
         # print("bottom", target, stack[0], layer)
         return target == stack[0]
+    if stack[-1] > target:
+        # all operations are "additive" (their result will be bigger than both inputs)
+        # so if we're over the total we can exit early
+        return False
     # print(target, stack, x, y, layer)
 
     x, y = stack[-2:]
@@ -36,5 +44,8 @@ for eq_i, eq in enumerate(equations):
     if evaluate_equations(eq[0], rhs, operators):
         p2_total += eq[0]
 
+end = time.time()
+
 print(f"Part 1 Solution: { p1_total }")
 print(f"Part 2 Solution: { p2_total }")
+print(f"Total Time: {end - start}")
