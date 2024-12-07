@@ -48,9 +48,9 @@ This is the repo where I put my Advent of Code solutions each year
 | [02](./2024/day_02/solution.py) | :white_check_mark: | :white_check_mark: |
 | [03](./2024/day_03/solution.py) | :white_check_mark: | :white_check_mark: |
 | [04](./2024/day_04/solution.py) | :white_check_mark: | :white_check_mark: |
-| [05](./2024/day_05/solution.py) | :x:                | :x:                |
-| [06](./2024/day_06/solution.py) | :x:                | :x:                |
-| [07](./2024/day_07/solution.py) | :x:                | :x:                |
+| [05](./2024/day_05/solution.py) | :white_check_mark: | :white_check_mark: |
+| [06](./2024/day_06/solution.py) | :white_check_mark: | :white_check_mark: |
+| [07](./2024/day_07/solution.py) | :white_check_mark: | :white_check_mark: |
 | [08](./2024/day_08/solution.py) | :x:                | :x:                |
 | [09](./2024/day_09/solution.py) | :x:                | :x:                |
 | [10](./2024/day_10/solution.py) | :x:                | :x:                |
