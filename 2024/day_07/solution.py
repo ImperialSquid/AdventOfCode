@@ -25,7 +25,7 @@ def evaluate_equations(target, stack, ops, layer = 0):
     for op in ops:
         stacks.append(stack[:-2] + [op(x, y), ])
 
-    return any([evaluate_equations(target, s, ops, layer + 1) for s in stacks])
+    return any(evaluate_equations(target, s, ops, layer + 1) for s in stacks)
 
 operators = [lambda x, y: x + y,
              lambda x, y: x * y,
