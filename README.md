@@ -40,7 +40,7 @@ This is the repo where I put my Advent of Code solutions each year
 
 ## 2024
 
-<details><summary>Python 16/50</summary>
+<details><summary>Python 20/50</summary>
 
 | Day                             | Part 1             | Part 2             |
 |---------------------------------|--------------------|--------------------|
@@ -52,8 +52,8 @@ This is the repo where I put my Advent of Code solutions each year
 | [06](./2024/day_06/solution.py) | :white_check_mark: | :white_check_mark: |
 | [07](./2024/day_07/solution.py) | :white_check_mark: | :white_check_mark: |
 | [08](./2024/day_08/solution.py) | :white_check_mark: | :white_check_mark: |
-| [09](./2024/day_09/solution.py) | :x:                | :x:                |
-| [10](./2024/day_10/solution.py) | :x:                | :x:                |
+| [09](./2024/day_09/solution.py) | :white_check_mark: | :white_check_mark: |
+| [10](./2024/day_10/solution.py) | :white_check_mark: | :white_check_mark: |
 | [11](./2024/day_11/solution.py) | :x:                | :x:                |
 | [12](./2024/day_12/solution.py) | :x:                | :x:                |
 | [13](./2024/day_13/solution.py) | :x:                | :x:                |
